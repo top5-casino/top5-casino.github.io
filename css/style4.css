@@ -1,0 +1,1970 @@
+button,
+hr,
+input {
+	overflow: visible;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+}
+
+progress,
+sub,
+sup {
+	vertical-align: baseline;
+}
+
+[type=checkbox],
+[type=radio],
+legend {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+}
+
+body {
+	margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+	display: block;
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+a {
+	background-color: transparent;
+}
+
+a:active,
+a:hover {
+	outline-width: 0;
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+dfn {
+	font-style: italic;
+}
+
+mark {
+	background-color: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+img {
+	border-style: none;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+fieldset {
+	border: 1px solid silver;
+	margin: 0 2px;
+	padding: .35em .625em .75em;
+}
+
+legend {
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	white-space: normal;
+}
+
+textarea {
+	overflow: auto;
+}
+
+summary {
+	display: list-item;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+html {
+	height: 100%;
+	line-height: 1;
+}
+
+body {
+	height: 100%;
+	font-family: 'Arial', sans-serif;
+	color: #fff;
+	background: #020100 
+	no-repeat center/cover;
+	background-attachment: fixed;
+}
+
+body.no-bg {
+	background-image: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+}
+
+:focus {
+	outline: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+
+.melbet--official-wrap {
+	width: 986px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #0d1d2f;
+	border-left: 3px solid #fbad02;
+	border-right: 3px solid #fbad02;
+	box-sizing: border-box;
+}
+
+.melbet--official-wrap.melbet--official-wrap--full {
+	padding: 0 7px;
+	width: 100%;
+	border: none;
+	max-width: 1880px;
+}
+
+.melbet--official-page {
+	padding-top: 20px;
+	flex: 1 0 auto;
+}
+
+.melbet--official-inner {
+	padding: 10px 0;
+	margin: 0 -7px;
+	min-width: 1170px;
+	display: flex;
+	flex: 1;
+	box-sizing: border-box;
+}
+
+.melbet--official-inner__page {
+	flex: 1;
+}
+
+.melbet--official-inner__side {
+	flex: 0 0 220px;
+}
+
+.melbet--official-inner__side--1 {
+	order: -1;
+}
+
+.melbet--official-inner__page,
+.melbet--official-inner__side {
+	padding: 0 7px;
+}
+
+.melbet--official-inner__panel {
+	height: 100%;
+	padding: 15px 10px;
+	border: 3px solid #fbad02;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.melbet-casino-official-header,
+.melbet--official-page,
+.melbet--official-footer {
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+.clearfix:after,
+.melbet-casino-official-header__win:after,
+.melbet-casino-official-header__addon:after,
+.melbet--official-page:after,
+.melbet--official-list:after,
+.melbet--official-vslider__inner:after,
+.melbet--official-page__entry:after,
+.melbet--official-inner__entry:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.bonus-block {
+	margin: 15px 0;
+}
+
+.bonus-block .bonus-list {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	list-style: none;
+	list-style-position: outside;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.bonus-block .bonus-list .bonus-item {
+	flex-basis: 48%;
+	box-sizing: border-box;
+	margin: 5px;
+	border-radius: 8px;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	height: 300px;
+	overflow-y: visible;
+	border: 2px solid #7f02ff;
+	box-shadow: 0 0 0.75em 1px #7f02ff, inset 0 0 0.75em 1px #7f02ff;
+}
+
+.bonus-block .bonus-list .bonus-title {
+	color: #fff;
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.bonus-block .bonus-list .bonus-img {
+	height: 75px;
+}
+
+.bonus-block .bonus-list .bonus-descr {
+	font-size: 14px;
+	color: #fff;
+	margin: 10px 0;
+}
+
+.bonus-block .bonus-list .bonus-link {
+	display: block;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translatex(-50%);
+	background: linear-gradient(to bottom, #de3c21 0%, #b41b0f 100%);
+	border: 1px solid #bc2502;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 12px;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 6px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.bonus-block .bonus-list .bonus-link:hover {
+	background: linear-gradient(to bottom, #7f02ff 0%, #7f02ff 100%);
+	border: 1px solid #7f02ff;
+}
+
+.melbet-casino-official-header__main {
+	padding: 3px 0;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.melbet-casino-official-header__main::before {
+	content: '';
+	position: absolute;
+	height: 1px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: linear-gradient(to right, #000 0, #623a8a 50%, #000 100%);
+}
+
+.melbet-casino-official-header__logo {
+	float: left;
+}
+
+.melbet-casino-official-header__logo img {
+	display: block;
+	max-height: 70px;
+}
+
+.melbet-casino-official-header__reg {
+	float: right;
+	padding: 15px 0;
+	font-size: 0;
+}
+
+.melbet-casino-official-header__reg__btn {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 40px;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	transition: .1s box-shadow;
+}
+
+.melbet-casino-official-header__reg__btn--reg {
+	margin-right: 5px;
+	background: linear-gradient(to bottom, #fde328 0%, #e1cb2b 50%, #fde328 100%);
+}
+
+.melbet-casino-official-header__reg__btn--reg:hover {
+	background-color: #d28b05;
+	box-shadow: inset 1px 1px 40px #d28b05, inset -1px -1px 40px #d28b05;
+}
+
+.melbet-casino-official-header__reg__btn--ent {
+	background-color: #00a2ff;
+	background-image: linear-gradient(to bottom, #00a2ff 0, #00a2ff 45%, #0092e6 50%, #002d47 100%);
+	box-shadow: inset 1px 1px 1px #00a2ff, inset -1px -1px 1px #00a2ff;
+}
+
+.melbet-casino-official-header__reg__btn--ent:hover {
+	background-color: #006199;
+	background-image: linear-gradient(to top, #00a2ff 0, #00a2ff 45%, #0092e6 50%, #002d47 100%);
+	box-shadow: inset 1px 1px 40px #00a2ff, inset -1px -1px 40px #00a2ff;
+}
+
+.melbet-casino-official-header__win__left {
+	float: left;
+}
+
+.melbet-casino-official-header__win__right {
+	float: right;
+}
+
+.melbet-casino-official-header__win__title {
+	height: 45px;
+	margin: 0;
+	padding: 0 50px;
+	position: relative;
+}
+
+.melbet-casino-official-header__win__title:before,
+.melbet-casino-official-header__win__title:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	height: 1px;
+	width: 45px;
+}
+
+.melbet-casino-official-header__win__title:before {
+	left: 0;
+	background-image: linear-gradient(to right, #000, #fff);
+}
+
+.melbet-casino-official-header__win__title:after {
+	right: 0;
+	background-image: linear-gradient(to left, #000, #fff);
+}
+
+.melbet-casino-official-header__win__text {
+	display: block;
+	padding: 11px 0;
+	font-size: 30px;
+	letter-spacing: 3px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	text-overflow: clip;
+	background: linear-gradient(#fff, darkblue);
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+}
+
+.melbet-casino-official-header__win__text--bg {
+	position: relative;
+	padding: 11px 60px;
+}
+
+.melbet-casino-official-header__win__text--bg:before,
+.melbet-casino-official-header__win__text--bg:after {
+	content: '';
+	width: 63px;
+	height: 51px;
+	position: absolute;
+	top: 0;
+	background: transparent url("arrow-min.png")/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/arrow-min.png*/
+	no-repeat center/cover;
+}
+
+.melbet-casino-official-header__win__text--bg:after {
+	transform: rotate(180deg);
+}
+
+.melbet-casino-official-header__win__text--bg:before {
+	left: 0;
+}
+
+.melbet-casino-official-header__win__text--bg:after {
+	right: 0;
+}
+
+.melbet-casino-official-header__mnav {
+	margin: 10px 0;
+	position: relative;
+}
+
+.melbet-casino-official-header__mnav:before,
+.melbet-casino-official-header__mnav:after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	left: 0;
+	right: 0;
+	background-image: linear-gradient(to right, #000 0, #623a8a 50%, #000 100%);
+}
+
+.melbet-casino-official-header__mnav:before {
+	top: 0;
+}
+
+.melbet-casino-official-header__mnav:after {
+	bottom: 0;
+}
+
+.melbet-casino-official-header__addon {
+	border: 1px solid rgba(67, 57, 85, 0.46);
+	background-image: linear-gradient(to bottom, rgba(70, 18, 135, 0.21) 0, #16012d 100%);
+}
+
+.melbet-casino-official-header__anav {
+	float: left;
+}
+
+.melbet--official-search {
+	float: right;
+	padding: 5px 10px 5px 0;
+	font-size: 0;
+}
+
+.melbet--official-search__input,
+.melbet--official-search__btn {
+	display: inline-block;
+	vertical-align: middle;
+	height: 34px;
+	background-color: #180226;
+	border: 0;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.melbet--official-search__input {
+	width: 160px;
+	padding: 0 10px;
+	color: #8e9197;
+	border: 1px solid #5b4a7c;
+	border-right: 0;
+}
+
+.melbet--official-search__input:focus {
+	box-shadow: inset 0 0 8px #b777f8;
+	color: #fff;
+}
+
+.melbet--official-search__btn {
+	width: 34px;
+	padding: 0;
+	border: 1px solid #5b4a7c;
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent: 101%;
+	background-image: url(icon-s.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/icon-s.png*/
+	;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.melbet-casino-official-hmenu,
+.melbet--official-mmenu,
+.melbet--official-amenu,
+.melbet--official-smenu,
+.melbet--official-fmenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+
+.melbet-casino-official-hmenu>li>a,
+.melbet--official-mmenu>li>a,
+.melbet--official-amenu>li>a,
+.melbet--official-smenu>li>a,
+.melbet--official-fmenu>li>a {
+	transition: .1s color;
+}
+
+.melbet-casino-official-hmenu>li>a:active,
+.melbet-casino-official-hmenu>li>a:hover,
+.melbet--official-mmenu>li>a:active,
+.melbet--official-mmenu>li>a:hover,
+.melbet--official-amenu>li>a:active,
+.melbet--official-amenu>li>a:hover,
+.melbet--official-smenu>li>a:active,
+.melbet--official-smenu>li>a:hover,
+.melbet--official-fmenu>li>a:active,
+.melbet--official-fmenu>li>a:hover {
+	color: #fff;
+}
+
+.melbet-casino-official-hmenu .melbet-menu>a,
+.melbet-casino-official-hmenu .melbet-menu>span,
+.melbet--official-mmenu .melbet-menu>a,
+.melbet--official-mmenu .melbet-menu>span,
+.melbet--official-amenu .melbet-menu>a,
+.melbet--official-amenu .melbet-menu>span,
+.melbet--official-smenu .melbet-menu>a,
+.melbet--official-smenu .melbet-menu>span,
+.melbet--official-fmenu .melbet-menu>a,
+.melbet--official-fmenu .melbet-menu>span {
+	color: #fff;
+}
+
+.melbet-casino-official-hmenu>li {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+	position: relative;
+}
+
+.melbet-casino-official-hmenu>li:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 1px;
+	background-image: linear-gradient(to bottom, #000 0, #000 20%, #623a8a 50%, #000 80%, #000 100%);
+}
+
+.melbet-casino-official-hmenu>li:first-child>a,
+.melbet-casino-official-hmenu>li:first-child>span {
+	padding-left: 0;
+}
+
+.melbet-casino-official-hmenu>li:first-child:after {
+	display: none;
+}
+
+.melbet-casino-official-hmenu>li>a,
+.melbet-casino-official-hmenu>li>span {
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 15px;
+	white-space: nowrap;
+	color: #8e9197;
+	text-decoration: none;
+}
+
+.melbet-casino-official-hmenu>li>a:hover {
+	background: url(h-tmenu.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/h-tmenu.png*/
+	center bottom no-repeat;
+}
+
+.melbet-casino-official-hmenu .melbet-menu>a,
+.melbet-casino-official-hmenu .melbet-menu>span {
+	background: url(h-tmenu.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/h-tmenu.png*/
+	center bottom no-repeat;
+}
+
+.melbet--official-mmenu {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.melbet--official-mmenu>li {
+	display: table-cell;
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+}
+
+.melbet--official-mmenu>li:hover,
+.melbet--official-mmenu>li.melbet-menu {
+	background-image: url(h-mmenu.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/h-mmenu.png*/
+	;
+	background-position: center 2px;
+	background-repeat: no-repeat;
+}
+
+.melbet--official-mmenu>li:hover .melbet--official-mmenu__icon,
+.melbet--official-mmenu>li.melbet-menu .melbet--official-mmenu__icon {
+	background-position: 0 -27px;
+}
+
+.melbet--official-mmenu>li:before,
+.melbet--official-mmenu>li:after {
+	content: '';
+	width: 1px;
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	background-image: linear-gradient(to bottom, #000 0, #623a8a 50%, #000 100%);
+}
+
+.melbet--official-mmenu>li:before {
+	left: 0;
+}
+
+.melbet--official-mmenu>li:after {
+	right: 0;
+}
+
+.melbet--official-mmenu>li:first-child .melbet--official-mmenu__icon {
+	background-image: url(icon-1.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/icon-1.png*/
+	;
+}
+
+.melbet--official-mmenu>li:nth-child(2) .melbet--official-mmenu__icon {
+	background-image: url(icon-2.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/icon-2.png*/
+	;
+}
+
+.melbet--official-mmenu>li:nth-child(3) .melbet--official-mmenu__icon {
+	background-image: url(icon-3.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/icon-3.png*/
+	;
+}
+
+.melbet--official-mmenu>li:nth-child(4) {
+	background-image: url(mbtn.jpg)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/mbtn.jpg*/
+	;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.melbet--official-mmenu>li:nth-child(4)>a {
+	overflow: hidden;
+	text-indent: 101%;
+	white-space: nowrap;
+	background-image: url(mbtn.jpg)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/mbtn.jpg*/
+	;
+	background-repeat: no-repeat;
+	background-position: 0 -68px;
+	animation: fadeIn 1s infinite alternate;
+}
+
+.melbet--official-mmenu>li>a,
+.melbet--official-mmenu>li>span {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: #a08ec0;
+}
+
+.melbet--official-mmenu__icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 3px 3px 0;
+	width: 25px;
+	height: 27px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+}
+
+.melbet--official-amenu>li {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+	position: relative;
+}
+
+.melbet--official-amenu>li:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 1px;
+	background-color: rgba(67, 57, 85, 0.46);
+}
+
+.melbet--official-amenu>li>a,
+.melbet--official-amenu>li>span {
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 10px;
+	color: #8e9197;
+	text-align: center;
+	text-decoration: none;
+}
+
+.melbet--official-amenu>li>a:hover {
+	background: rgba(133, 0, 255, 0.12) url(h-amenu.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/h-amenu.png*/
+	center bottom no-repeat;
+}
+
+.melbet--official-amenu .melbet-menu>a,
+.melbet--official-amenu .melbet-menu>span {
+	background: rgba(133, 0, 255, 0.12) url(h-amenu.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/h-amenu.png*/
+	center bottom no-repeat;
+}
+
+.melbet--official-smenu {
+	width: 194px;
+	border: 1px solid #b777f8;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.melbet--official-smenu>li {
+	display: block;
+	font-size: 15px;
+	border-top: 1px solid #b777f8;
+	background-color: rgba(67, 57, 85, 0.46);
+}
+
+.melbet--official-smenu>li:first-child {
+	border-top: none;
+}
+
+.melbet--official-smenu>li>a,
+.melbet--official-smenu>li>span {
+	display: block;
+	padding: 10px;
+	line-height: 1.1;
+	color: #8e9197;
+	text-decoration: none;
+}
+
+.melbet--official-smenu>li>a:hover {
+	background: rgba(133, 0, 255, 0.12) url(h-amenu.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/h-amenu.png*/
+	center bottom no-repeat;
+}
+
+.melbet--official-smenu .melbet-menu>a,
+.melbet--official-smenu .melbet-menu>span {
+	background: rgba(133, 0, 255, 0.12) url(h-amenu.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/h-amenu.png*/
+	center bottom no-repeat;
+}
+
+.melbet--official-fmenu {
+	text-align: center;
+	border-bottom: 1px solid #41618c;
+}
+
+.melbet--official-fmenu>li {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+.melbet--official-fmenu>li>a,
+.melbet--official-fmenu>li>span {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #887c9b;
+}
+
+.melbet--official-page__title,
+.melbet--official-inner__title {
+	margin-bottom: 15px;
+	font-weight: normal;
+	font-size: 24px;
+	color: #fff;
+	line-height: 1.2;
+	text-shadow: 1px 1px 10px #7f02ff, 1px -1px 10px #7f02ff, -1px 1px 10px #7f02ff, -1px -1px 10px #7f02ff, -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2), -1px 1px 1px rgba(255, 255, 255, 0.2), 1px -1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.melbet--official-slot {
+	width: 100%;
+	max-width: 920px;
+	margin: 0 auto 25px;
+	position: relative;
+}
+
+.melbet--official-slot:after {
+	content: '';
+	display: block;
+	padding-top: 75%;
+}
+
+.melbet--official-slot__inner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #1a003f;
+}
+
+.melbet--official-slot__inner iframe {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 0;
+	outline: 0;
+}
+
+.melbet--official-slot-btn {
+	display: block;
+	max-width: 920px;
+	background: linear-gradient(to bottom, #de3c21 0%, #b41b0f 100%);
+	border: 1px solid #bc2502;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 12px;
+	text-align: center;
+	line-height: 35px;
+	white-space: nowrap;
+	border: 0;
+	border-radius: 6px;
+	position: relative;
+	overflow: hidden;
+	z-index: 4;
+	min-height: 38px;
+	text-decoration: none;
+	margin: 0 auto 20px;
+}
+
+.melbet--official-slot-btn:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: calc(50% - 16px);
+	background-image: url(arrow-btn.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/arrow-btn.png*/
+	;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	width: 31px;
+	transition: 0.8s;
+}
+
+.melbet--official-slot-btn:hover:after {
+	right: -50px;
+}
+
+.melbet--official-page__entry,
+.melbet--official-inner__entry,
+.melbet--official-404__entry {
+	margin-bottom: 25px;
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: 'Arial';
+}
+
+.melbet--official-page__entry h1,
+.melbet--official-page__entry h2,
+.melbet--official-page__entry h3,
+.melbet--official-inner__entry h1,
+.melbet--official-inner__entry h2,
+.melbet--official-inner__entry h3,
+.melbet--official-404__entry h1,
+.melbet--official-404__entry h2,
+.melbet--official-404__entry h3 {
+	margin-bottom: 15px;
+	font-weight: normal;
+	font-size: 24px;
+	color: #fff;
+	line-height: 1.2;
+	text-shadow: 1px 1px 10px #7f02ff, 1px -1px 10px #7f02ff, -1px 1px 10px #7f02ff, -1px -1px 10px #7f02ff, -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2), -1px 1px 1px rgba(255, 255, 255, 0.2), 1px -1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.melbet--official-page__entry p,
+.melbet--official-page__entry ul,
+.melbet--official-page__entry ol,
+.melbet--official-inner__entry p,
+.melbet--official-inner__entry ul,
+.melbet--official-inner__entry ol,
+.melbet--official-404__entry p,
+.melbet--official-404__entry ul,
+.melbet--official-404__entry ol {
+	margin: 15px 0;
+}
+
+.melbet--official-page__entry a,
+.melbet--official-inner__entry a,
+.melbet--official-404__entry a {
+	color: #b777f8;
+}
+
+.melbet--official-page__entry a:hover,
+.melbet--official-page__entry a:active,
+.melbet--official-inner__entry a:hover,
+.melbet--official-inner__entry a:active,
+.melbet--official-404__entry a:hover,
+.melbet--official-404__entry a:active {
+	color: #fbad02;
+	text-decoration: none;
+}
+
+.melbet--official-page__entry a:visited,
+.melbet--official-inner__entry a:visited,
+.melbet--official-404__entry a:visited {
+	color: #c5ff4c;
+}
+
+.melbet--official-inner__entry {
+	max-width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.melbet--official-crumbs {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 10px;
+	font-size: 0;
+	color: #b777f8;
+}
+
+.melbet--official-inner .melbet--official-crumbs {
+	max-width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.melbet--official-crumbs__item {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+	font-size: 13px;
+}
+
+.melbet--official-crumbs__item:last-child {
+	margin-right: 0;
+}
+
+.melbet--official-crumbs__link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.melbet--official-crumbs__link:hover {
+	color: #fbad02;
+}
+
+.melbet--official-crumbs__link .melbet--official-crumbs__inner {
+	text-decoration: underline;
+}
+
+.melbet--official-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 25px;
+	text-align: center;
+}
+
+.melbet--official-list__item {
+	display: inline-block;
+	min-height: 1px;
+	width: 215px;
+	margin-right: 10px;
+}
+
+.melbet--official-list__inner {
+	margin: 0 0 20px;
+	padding: 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #1a003f;
+	transition: .2s;
+	position: relative;
+	z-index: 1;
+}
+
+.melbet--official-list__inner:before,
+.melbet--official-list__inner:after {
+	content: '';
+	position: absolute;
+	opacity: 0;
+	transition: .2s opacity;
+}
+
+.melbet--official-list__inner:before {
+	top: -5px;
+	right: -10px;
+	bottom: 0;
+	left: -10px;
+	z-index: -1;
+	border-radius: 5px;
+	background-color: #2f0072;
+}
+
+.melbet--official-list__inner:after {
+	top: -15px;
+	right: -20px;
+	width: 56px;
+	height: 56px;
+	background-image: url(corner.png)/*tpa=http://pinup-slot.com/wp-content/themes/15007/img/corner.png*/
+	;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	z-index: 2;
+}
+
+.melbet--official-list__inner:hover {
+	background-color: #2f0072;
+}
+
+.melbet--official-list__inner:hover:before,
+.melbet--official-list__inner:hover:after {
+	opacity: 1;
+}
+
+.melbet--official-list__inner:hover .melbet--official-list__img {
+	opacity: .7;
+}
+
+.melbet--official-list__inner:hover .melbet--official-list__btn {
+	opacity: 1;
+}
+
+.melbet--official-list__inner:hover .melbet--official-list__btn--main {
+	transform: translateY(80px);
+}
+
+.melbet--official-list__inner:hover .melbet--official-list__btn--alt {
+	transform: translateY(-80px);
+}
+
+.melbet--official-list__thumb {
+	position: relative;
+	padding: 10px 0;
+	overflow: hidden;
+	width: 215px;
+	height: 162px;
+	display: flex;
+	justify-content: center;
+}
+
+.melbet--official-list__img {
+	display: block;
+	transition: .2s opacity;
+	backface-visibility: hidden;
+}
+
+.melbet--official-list__btn {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	color: #000;
+	font-size: 15px;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	opacity: 0;
+	box-sizing: border-box;
+	transition-property: transform, opacity, box-shadow;
+	transition-duration: .2s;
+}
+
+.melbet--official-list__btn--main {
+	top: -40px;
+	background-color: #c5ff4c;
+	background-image: linear-gradient(to bottom, #c5ff4c 0, #c5ff4c 45%, #9be500 50%, #567f00 100%);
+	box-shadow: inset 1px 1px 1px #c5ff4c, inset -1px -1px 1px #c5ff4c;
+}
+
+.melbet--official-list__btn--main:hover {
+	background-color: #9be500;
+	background-image: linear-gradient(to top, #c5ff4c 0, #c5ff4c 45%, #9be500 50%, #567f00 100%);
+	box-shadow: inset 1px 1px 40px #c5ff4c, inset -1px -1px 40px #c5ff4c;
+}
+
+.melbet--official-list__btn--alt {
+	bottom: -40px;
+	background-color: #00a2ff;
+	background-image: linear-gradient(to bottom, #00a2ff 0, #00a2ff 45%, #0092e6 50%, #006199 100%);
+	box-shadow: inset 1px 1px 1px #00a2ff, inset -1px -1px 1px #00a2ff;
+}
+
+.melbet--official-list__btn--alt:hover {
+	background-color: #006199;
+	background-image: linear-gradient(to top, #00a2ff 0, #00a2ff 45%, #0092e6 50%, #006199 100%);
+	box-shadow: inset 1px 1px 40px #00a2ff, inset -1px -1px 40px #00a2ff;
+}
+
+.melbet--official-list__entry {
+	height: 50px;
+	padding: 0 10px;
+	display: flex;
+}
+
+.melbet--official-list__title {
+	overflow: hidden;
+	max-height: 16px;
+	display: block;
+	width: 100%;
+	margin: auto;
+	font-size: 14px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.melbet--official-404 {
+	padding: 0;
+	margin: 0 0 25px;
+	display: flex;
+}
+
+.melbet--official-404__title {
+	float: left;
+	font-size: 110px;
+	margin: 60px;
+	line-height: 1;
+	color: #fbad02;
+	font-weight: normal;
+}
+
+.melbet--official-404__entry {
+	width: 100%;
+	margin: auto;
+}
+
+.wp-pagenavi {
+	text-align: center;
+	color: #fbad02;
+}
+
+.wp-pagenavi>a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.wp-pagenavi>a,
+.wp-pagenavi>span {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px;
+}
+
+.melbet--official-slider {
+	height: 300px;
+	position: relative;
+}
+
+.melbet--official-slider img {
+	width: 100%;
+	height: auto;
+	border: 0;
+}
+
+.melbet--official-slider__list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.melbet--official-slider__item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	z-index: 1;
+	will-change: opacity;
+	transition: opacity 1s;
+}
+
+.melbet--official-slider__item.current {
+	opacity: 1;
+	z-index: 2;
+}
+
+.melbet--official-pager {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	padding-right: 20px;
+	text-align: right;
+	box-sizing: border-box;
+}
+
+.melbet--official-pager__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #623a8a;
+	border: 1px solid #b777f8;
+	cursor: pointer;
+	position: relative;
+	z-index: 3;
+	transition: background-color .2s;
+}
+
+.melbet--official-pager__item:hover {
+	background-color: #fbad02;
+}
+
+.melbet--official-pager__item.current {
+	background-color: #fbad02;
+	cursor: default;
+}
+
+.melbet--official-vslider {
+	height: 204px;
+	width: 194px;
+	overflow: hidden;
+	position: relative;
+}
+
+.melbet--official-vslider__list {
+	position: relative;
+	left: 0;
+	right: 0;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	will-change: transform;
+}
+
+.melbet--official-vslider__list.moved {
+	transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+}
+
+.melbet--official-vslider__item {
+	display: block;
+}
+
+.melbet--official-vslider__inner {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.melbet--official-vslider__link {
+	float: left;
+	border: 1px solid #b777f8;
+	transition: .2s box-shadow;
+}
+
+.melbet--official-vslider__link:hover {
+	box-shadow: 0 0 20px #b777f8;
+}
+
+.melbet--official-vslider__link:hover .melbet--official-vslider__img {
+	opacity: .7;
+}
+
+.melbet--official-vslider__img {
+	display: block;
+	width: 60px;
+	height: 45px;
+	transition: .2s opacity;
+}
+
+.melbet--official-vslider__entry {
+	margin-left: 75px;
+	font-size: 12px;
+	line-height: 1.25;
+	backface-visibility: hidden;
+}
+
+.melbet--official-vslider__name,
+.melbet--official-vslider__sum {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.melbet--official-vslider__sum {
+	color: #fbad02;
+	font-size: 15px;
+}
+
+.melbet--official-inner__side__logo {
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.melbet--official-side-reg {
+	margin-bottom: 15px;
+	text-align: center;
+	color: #a4b9ff;
+	text-shadow: 1px 1px 1px #6300f3;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.melbet--official-side-reg__link,
+.melbet--official-side-reg__sms {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.melbet--official-side-reg__text {
+	display: block;
+	padding-bottom: 10px;
+	font-size: 15px;
+	color: #fffdcd;
+	text-transform: uppercase;
+	text-shadow: none;
+	letter-spacing: -0.2px;
+	position: relative;
+}
+
+.melbet--official-side-reg__btn {
+	display: block;
+	margin: 10px 0 20px;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fffdcd;
+	font-size: 14px;
+	background-color: #faa;
+	background-image: linear-gradient(to bottom, #faa 0%, #cb0202 10%, #6e0000 100%);
+}
+
+.melbet--official-side-reg__btn:hover {
+	background-image: linear-gradient(to top, #faa 0%, #cb0202 10%, #6e0000 100%);
+}
+
+.melbet--official-side-reg__sms {
+	margin-top: 20px;
+	padding: 10px 0;
+	position: relative;
+}
+
+.melbet--official-side-reg__text:after,
+.melbet--official-side-reg__sms:after,
+.melbet--official-side-reg__sms:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, #000 0, #b777f8 50%, #000 100%);
+}
+
+.melbet--official-side-reg__text:after,
+.melbet--official-side-reg__sms:after {
+	bottom: 0;
+}
+
+.melbet--official-side-reg__sms:before {
+	top: 0;
+}
+
+.melbet--official-inner__side__title {
+	display: block;
+	padding: 5px 0;
+	color: #fbad02;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.melbet--official-footer__fnav {
+	padding-top: 25px;
+}
+
+.melbet--official-footer__pay,
+.melbet--official-footer__awards {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.melbet--official-footer__sole {
+	padding: 10px 0;
+	text-align: center;
+	font-size: 13px;
+	color: #ccc;
+	line-height: 1.2;
+}
+
+.melbet--official-footer__sole p {
+	margin: 5px 0;
+}
+
+.alignleft,
+img.alignleft {
+	margin-right: 20px;
+	float: left;
+}
+
+.alignright,
+img.alignright {
+	margin-left: 20px;
+	float: right;
+}
+
+.aligncenter,
+img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	display: block;
+	clear: both;
+}
+
+.wp-caption {
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+}
+
+.wp-caption .wp-caption-text {
+	line-height: 1.5;
+	font-size: 14px;
+	margin: 0;
+}
+
+.content_btn {
+	display: inline-block;
+	background-color: #c5ff4c;
+	background-image: linear-gradient(to bottom, #c5ff4c 0, #c5ff4c 45%, #9be500 50%, #1f2d00 100%);
+	box-shadow: inset 1px 1px 1px #c5ff4c, inset -1px -1px 1px #c5ff4c;
+	vertical-align: middle;
+	font-size: 15px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 40px;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000 !important;
+	font-weight: bold;
+	transition: .1s box-shadow;
+}
+
+.content_btn:hover {
+	background-color: #9be500;
+	background-image: linear-gradient(to top, #c5ff4c 0, #c5ff4c 45%, #9be500 50%, #1f2d00 100%);
+	box-shadow: inset 1px 1px 40px #c5ff4c, inset -1px -1px 40px #c5ff4c;
+}
+
+#true_loadmore {
+	clear: both;
+	display: block;
+	margin: 15px auto 10px auto;
+	background: linear-gradient(to bottom, #50c5ac 0%, #3fa18d 50%, #2e7f70 100%);
+	font-weight: bold;
+	cursor: pointer;
+	width: 95px;
+	border-radius: 4px;
+	padding: 15px 20px;
+}
+
+#true_loadmore:hover {
+	background-color: #50c5ac;
+	box-shadow: inset 1px 1px 40px #50c5ac, inset -1px -1px 40px #50c5ac;
+}
+
+.mobile-menu {
+	cursor: pointer;
+	margin: 0px auto 10px 10px;
+	width: 70px;
+	display: none;
+}
+
+.mobile-menu-line {
+	width: 70px;
+	background-color: white;
+	display: block;
+	margin-top: 10px;
+	height: 6px;
+}
+
+@media screen and (max-width: 1000px) {
+	.melbet--official-wrap {
+		width: 100%;
+	}
+	.melbet-casino-official-header,
+	.melbet--official-page,
+	.melbet--official-footer {
+		width: 98%;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	.melbet-casino-official-header__win__right {
+		float: none;
+		margin: 25px auto 10px auto;
+		width: 290px;
+	}
+	.melbet-casino-official-header__win__left {
+		float: none;
+		width: 600px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	iframe {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 815px) {
+	.melbet-casino-official-header__mnav {
+		display: none;
+	}
+	.melbet-casino-official-header__anav {
+		display: none;
+	}
+	.melbet--official-search {
+		display: block;
+		width: 195px;
+		float: right;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.melbet-casino-official-header__addon {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.melbet-casino-official-header__anav {
+		order: 3;
+		width: 100%;
+	}
+	.melbet--official-search {
+		order: 2;
+		margin-top: 7px;
+		height: 34px;
+	}
+	.mobile-menu {
+		order: 1;
+	}
+	.melbet--official-amenu>li {
+		width: 100%;
+	}
+	.melbet--official-amenu>li:not(:last-of-type) {
+		border-bottom: 1px solid rgba(67, 57, 85, 0.46);
+	}
+	.melbet-casino-official-header__main {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.melbet-casino-official-header__logo {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 275px;
+		margin-top: 10px;
+	}
+	.melbet-casino-official-header__reg {
+		float: none;
+		width: 330px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.melbet-casino-official-header__win {
+		display: none;
+	}
+	iframe {
+		max-height: 250px;
+	}
+	.melbet--official-slot {
+		display: none;
+	}
+	.melbet--official-404__title {
+		float: none;
+		text-align: center;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.melbet--official-404 {
+		display: block;
+	}
+	.melbet--official-404__entry {
+		text-align: center;
+	}
+	.alignright,
+	.alignleft,
+	.alignone {
+		max-width: 150px;
+		height: auto !important;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.melbet-casino-official-header__reg__btn {
+		padding: 0px 30px;
+	}
+	.melbet-casino-official-header__reg {
+		width: 290px;
+	}
+}
+
+@media screen and (max-width: 1190px) {
+	.melbet--official-inner {
+		min-width: 0px;
+		flex-wrap: wrap;
+		flex: auto;
+		justify-content: space-between;
+	}
+	.melbet--official-inner__page {
+		order: 1;
+		width: 100%;
+		flex: auto;
+	}
+	.melbet--official-inner__side {
+		order: 3;
+	}
+	.melbet--official-inner__side--1 {
+		order: 2;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	.melbet--official-inner__side {
+		width: 100%;
+		flex: auto;
+	}
+	.bonus-block .bonus-list .bonus-item {
+		flex-basis: 100%;
+		margin-bottom: 10px;
+		height: 330px;
+	}
+	.melbet--official-wrap {
+		border: 0;
+	}
+	.melbet--official-inner__panel {
+		border: 0;
+	}
+	.melbet-casino-official-hmenu>li>a,
+	.melbet-casino-official-hmenu>li>span {
+		padding: 5px;
+	}
+}
+
+a.sitemaps {
+	padding: 10px 0;
+	text-align: center;
+	font-size: 13px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+a.sitemaps:hover {
+	text-decoration: underline;
+}
+
+#sitemap_contrainer li {
+	margin: 10px 0;
+}
+
+#sitemap_contrainer li a {
+	color: #fff !important;
+	padding: 0;
+	display: block;
+	line-height: 25px;
+}
+
+#sitemap_contrainer li a:hover {
+	color: red !important;
+}
+
+.content-btn {
+	max-width: 180px;
+	clear: both;
+	display: block;
+	margin: 15px auto 10px auto;
+	background-color: red;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 4px;
+	padding: 15px 20px;
+	color: #fff !important;
+	text-decoration: none;
+	text-align: center;
+}
+
+.content-btn:hover {
+	background-color: #ff5050;
+}
+
+.img_apk {
+	max-width: 200px;
+	width: 100%;
+	margin: 8px 0;
+}
+
+@media screen and (max-width: 485px) {
+	.img_apk {
+		margin: 18px 0;
+	}
+}
+
+.back_to_top {
+	position: fixed;
+	right: 2%;
+	bottom: 5%;
+	background: linear-gradient(to bottom, #50c5ac 0%, #3fa18d 50%, #2e7f70 100%);
+	border: 1px solid #55a399;
+	width: 55px;
+	height: 55px;
+	border-radius: 7px;
+	z-index: 100;
+	transition: all .3s;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.back_to_top:hover {
+	background-color: #50c5ac;
+	box-shadow: inset 1px 1px 40px #50c5ac, inset -1px -1px 40px #50c5ac;
+}
+
+.back_to_top.cd-top--is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+.back_to_top img {
+	max-width: 35px;
+	height: auto;
+}
+
+.coupons {
+	margin-top: 20px;
+}
+
+.coupons .item {
+	padding: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	background: linear-gradient(180deg, #454c56 0%, #313946 5.21%, #33363c 54.69%, #000 95.31%, #000 100%);
+}
+
+@media (max-width: 640px) {
+	.coupons .item {
+		flex-wrap: wrap;
+	}
+}
+
+.coupons .item .img {
+	width: 100%;
+	max-width: 150px;
+	padding-right: 15px;
+}
+
+@media (max-width: 640px) {
+	.coupons .item .img {
+		max-width: 100%;
+		justify-content: center;
+		display: flex;
+	}
+	.coupons .item .img img {
+		max-width: 150px;
+	}
+}
+
+.coupons .item .left {
+	width: 100%;
+}
+
+.coupons .item .right {
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+@media (max-width: 640px) {
+	.coupons .item .right {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+.coupons .item .title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0px 4px 4px #0c2851;
+}
+
+.coupons .item .desc {
+	color: #fff;
+	text-shadow: 0px 4px 4px #0c2851;
+	margin-bottom: 20px;
+}
+
+.coupons .item .coupon_btn a {
+	display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+	background: linear-gradient(180deg, #61f72c 0%, #339e2a 5.21%, #276f18 54.69%, #29750e 95.31%, #0a4205 100%);
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.coupons .item .coupon_btn a:hover {
+	background: linear-gradient(90deg, #61f72c 0%, #339e2a 5.21%, #276f18 54.69%, #29750e 95.31%, #0a4205 100%);
+}
+
+.soderjanie li A{
+	color:white;
+	
+}
+
+.soderjanie li A:active {
+	color:white;
+	
+}
+
+.soderjanie li A:visited {
+	color:#708090;
+	
+}
+
+.soderjanie li A:hover {
+	color:#A9A9A9;
+	
+}
+
+.har-slots .cwdtable td {
+	
+	padding: 5px;
+}
